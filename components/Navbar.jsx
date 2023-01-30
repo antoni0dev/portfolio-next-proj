@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full shadow-xl z-[100]">
+    <div className="fixed w-full shadow-xl z-[100] bg-bg-color">
       <div className="flex justify-between items-center px-4 py-2">
         <div>
           <Image

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:grid grid-cols-3 py-16 m-auto max-w-[1240px] gap-8">
+    <div className="flex flex-col lg:grid grid-cols-3 m-auto max-w-[1240px] gap-8 lg:h-screen">
       <div className="w-[50%] md:w-[70%] lg:w-full m-auto tracking-wide col-span-2">
         <p className="text-xl tracking-widest text-[#c1c13d] uppercase">
           About
