@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
@@ -7,41 +7,61 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
+
   return (
-    <div className="fixed w-full shadow-xl z-[100] bg-bg-color">
+    <div
+      className={
+        shadow
+          ? "fixed w-full z-[100] bg-bg-color shadow-md shadow-[#657786]"
+          : "fixed w-full z-[100] bg-bg-color"
+      }
+    >
       <div className="flex justify-between items-center px-4 py-2">
         <div>
-          <Image
-            className="rounded-lg"
-            src="/../public/assets/logo.png"
-            width={80}
-            height={50}
-            alt="logo"
-          />
+          <Link href="/">
+            <Image
+              className="rounded-lg"
+              src="/../public/assets/logo.png"
+              width={80}
+              height={50}
+              alt="logo"
+            />
+          </Link>
         </div>
         <div className="flex justify-between items-center">
           <ul className="hidden md:flex md:text-xs lg:text-sm justify-between items-center gap-5">
             <Link href="/">
               <li>Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li>About</li>
             </Link>
-            <Link href="">
+            <Link href="/#skills">
               <li>Skills</li>
             </Link>
-            <Link href="">
+            <Link href="/#projects">
               <li>Projects</li>
             </Link>
             <Link href="">
               <li>Resume</li>
             </Link>
-            <Link href="">
+            <Link href="/#contact">
               <li>Contact</li>
             </Link>
           </ul>

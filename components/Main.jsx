@@ -5,7 +5,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div className="p-6 w-full h-screen md:text-xs lg:text-sm flex justify-center items-center text-center">
+    <div
+      id="home"
+      className="p-6 w-full h-screen md:text-xs lg:text-sm flex justify-center items-center text-center"
+    >
       <div>
         <p className="text-primary-color uppercase tracking-widest">
           LET'S BUILD SMETHING BULLISH TOGETHER
@@ -20,16 +23,16 @@ const Main = () => {
         </p>
         <div>
           <div className="flex max-w-[400px] justify-evenly items-center m-auto p-4">
-            <div className="rounded-full shadow-lg shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-md shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaLinkedin />
             </div>
-            <div className="rounded-full shadow-lg shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-md shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaGithub />
             </div>
-            <div className="rounded-full shadow-lg shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-md shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <AiOutlineMail />
             </div>
-            <div className="rounded-full shadow-lg shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-md shadow-[#7c96ab] p-4 md:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsFillPersonLinesFill />
             </div>
           </div>

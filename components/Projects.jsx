@@ -5,7 +5,10 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div className="max-w-[1240px] mx-auto flex flex-col justify-center pt-16 w-[50%] md:w-[70%] lg:w-full">
+    <div
+      id="projects"
+      className="max-w-[1240px] mx-auto flex flex-col justify-center pt-16 w-[50%] md:w-[70%] lg:w-full"
+    >
       <p className="text-xl tracking-widest text-[#c1c13d] uppercase">
         Projects
       </p>
