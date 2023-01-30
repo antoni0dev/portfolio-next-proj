@@ -4,7 +4,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="flex flex-col lg:grid grid-cols-3 m-auto max-w-[1240px] gap-8 lg:h-screen">
-      <div className="w-[50%] md:w-[70%] lg:w-full m-auto tracking-wide col-span-2">
+      <div className="w-[50%] md:w-[70%] lg:w-full mx-auto tracking-wide col-span-2 flex flex-col justify-between">
         <p className="text-xl tracking-widest text-[#c1c13d] uppercase">
           About
         </p>
@@ -45,7 +45,7 @@ const About = () => {
           highest standards.
         </p>
       </div>
-      <div className="w-[50%] md:w-[70%] lg:w-full h-full m-auto shadow-xl shadow-[#000000] rounded-l p-4 hover:scale-110 ease-in duration-300">
+      <div className="w-[50%] md:w-[70%] lg:w-full h-full m-auto shadow-xl shadow-[#000000] rounded-l hover:scale-110 ease-in duration-300">
         <Image
           src="/../public/assets/profile.jpeg"
           className="rounded-xl w-full h-full object-cover"
