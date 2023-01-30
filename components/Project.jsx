@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Project = ({ projectSrc, projectName, technologyUsed, moreInfo }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-[#7c96ab] rounded-xl hover:bg-gradient-to-r from-[#c1c13d] to-[#487fa4] ease-in duration-300 p-4 group">
+    <div className="shadow-[#000000] relative flex items-center justify-center h-auto w-full shadow-md rounded-xl hover:bg-gradient-to-r from-[#8c8c52] to-[#285f84] group">
       <Image
         width={1000}
         height={1000}
-        className="w-full h-full rounded-xl group-hover:opacity-10"
+        className="p-2 md:p-4 w-full h-full rounded-xl group-hover:opacity-10"
         src={projectSrc}
         alt="/"
       />

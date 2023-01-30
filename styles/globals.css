@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --primary-color: #E1E8ED;
+  --primary-color: #808f9c;
   --bg-color: #1b222c;
 }
 
@@ -38,7 +38,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-[#E2071C] rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    @apply border shadow-gray-400 rounded-xl uppercase hover:bg-[#eeee3a] hover:text-black text-[#E1E8ED]
   }
 
   li {
