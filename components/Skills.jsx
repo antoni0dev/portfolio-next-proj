@@ -6,9 +6,9 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="max-w-[1240px] mx-auto lg:h-screen flex flex-col justify-center pt-16 w-[50%] md:w-[70%] lg:w-full p-5"
+      className="max-w-[1240px] mx-auto lg:h-screen flex flex-col justify-center pt-16 w-[85%] md:w-[90%] lg:w-full p-5"
     >
-      <p className="text-xl tracking-widest text-[#c1c13d] uppercase">Skills</p>
+      <p className="text-xl tracking-widest text-[#FFEE80] uppercase">Skills</p>
       <h2 className="py-4">What I Can Do</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         <Skill

@@ -2,17 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* #70879b  1b222c*/
 
 :root {
-  --primary-color: #808f9c;
-  --bg-color: #1b222c;
+  --primary-color: #f8f8f2;
+  --bg-color: #282a36;
 }
 
 html {
   scroll-behavior: smooth !important;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 @layer base {
@@ -30,18 +31,22 @@ html {
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+    @apply text-4xl sm:text-5xl md:text-6xl
   }
 
   h2 {
     @apply text-3xl sm:text-4xl
   }
 
+  h1, h2,h3,h4,h5,h6,p, li {
+    @apply selection:bg-[#FAD000] selection:text-black
+  }
+
   button {
-    @apply border shadow-gray-400 rounded-xl uppercase hover:bg-[#eeee3a] hover:text-black text-[#E1E8ED]
+    @apply border shadow-gray-400 rounded-xl uppercase hover:bg-[#07F2C5] hover:text-black text-[#f8f8f2]
   }
 
   li {
-    @apply uppercase hover:border-b border-primary-color border-opacity-100 cursor-pointer 
+    @apply capitalize hover:border-b border-[#FAD000] cursor-pointer 
   }
 }

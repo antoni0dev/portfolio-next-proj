@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="max-w-[1240px] mx-auto flex flex-col justify-center pt-16 w-[50%] md:w-[70%] lg:w-full"
+      className="max-w-[1240px] mx-auto flex flex-col justify-center pt-16 w-[85%] md:w-[90%] lg:w-full p-5"
     >
-      <p className="text-xl tracking-widest text-[#c1c13d] uppercase">
+      <p className="text-xl tracking-widest text-[#FFEE80] uppercase">
         Projects
       </p>
       <h2 className="py-4">What I've Built</h2>
@@ -18,25 +18,25 @@ const Projects = () => {
           projectSrc="/../public/assets/projects/netflix.jpg"
           projectName="Netflix 2.0"
           technologyUsed="Next JS"
-          moreInfo="https://github.com/antoni0dev/netflix2.0-next-proj"
+          moreInfo="/netflix"
         />
         <Project
           projectSrc="/../public/assets/projects/restaurant.png"
           projectName="Modern UI/UX Restaurant"
           technologyUsed="React JS"
-          moreInfo="https://github.com/antoni0dev/modern-ui-ux-restaurant-react-proj"
+          moreInfo="/restaurant"
         />
         <Project
           projectSrc="/../public/assets/projects/crypto.png"
           projectName="Live Crypto"
           technologyUsed="React JS"
-          moreInfo="https://github.com/antoni0dev/livecrypto-react-proj"
+          moreInfo="/crypto"
         />
         <Project
           projectSrc="/../public/assets/projects/rick-and-morty.png"
           projectName="Rick and Morty Wiki"
           technologyUsed="React JS"
-          moreInfo="https://github.com/antoni0dev/rick-and-morty-wiki-react-proj"
+          moreInfo="/rick-and-morty"
         />
       </div>
     </div>

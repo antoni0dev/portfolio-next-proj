@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Skill = ({ imgSrc, skillName }) => {
   return (
-    <div className="p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300">
+    <div className="p-6 rounded-xl hover:scale-110 ease-in duration-300 shadow-lg shadow-[#07F2C5]">
       <div className="grid grid-cols-2 gap-4 justify-center items-center">
         <div className="m-auto">
           <Image
