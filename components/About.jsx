@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import profileIMG from "../public/assets/profile.jpeg";
 
 const About = () => {
   return (
@@ -48,7 +49,7 @@ const About = () => {
       </div>
       <div className="w-[50%] md:w-[70%] lg:w-full h-full m-auto shadow-xl shadow-[#07F2C5] rounded-l hover:scale-110 ease-in duration-300">
         <Image
-          src="/../public/assets/profile.jpeg"
+          src={profileIMG}
           className="rounded-xl w-full h-full object-cover"
           height={477}
           width={474}

@@ -2,6 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Project from "./Project";
+import netflixImg from "../public/assets/projects/netflix.jpg";
+import restaurantImg from "../public/assets/projects/restaurant.png";
+import cryptoImg from "../public/assets/projects/crypto.png";
+import rickandmortyImg from "../public/assets/projects/rick-and-morty.png";
 
 const Projects = () => {
   return (
@@ -12,28 +16,28 @@ const Projects = () => {
       <p className="text-xl tracking-widest text-[#FFEE80] uppercase">
         Projects
       </p>
-      <h2 className="py-4">What I&apos;ve Built</h2>
+      <h2 className="py-4">What Ive Built</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <Project
-          projectSrc="/../public/assets/projects/netflix.jpg"
+          projectSrc={netflixImg}
           projectName="Netflix 2.0"
           technologyUsed="Next JS"
           moreInfo="/netflix"
         />
         <Project
-          projectSrc="/../public/assets/projects/restaurant.png"
+          projectSrc={restaurantImg}
           projectName="Modern UI/UX Restaurant"
           technologyUsed="React JS"
           moreInfo="/restaurant"
         />
         <Project
-          projectSrc="/../public/assets/projects/crypto.png"
+          projectSrc={cryptoImg}
           projectName="Live Crypto"
           technologyUsed="React JS"
           moreInfo="/crypto"
         />
         <Project
-          projectSrc="/../public/assets/projects/rick-and-morty.png"
+          projectSrc={rickandmortyImg}
           projectName="Rick and Morty Wiki"
           technologyUsed="React JS"
           moreInfo="/rick-and-morty"
