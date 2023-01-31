@@ -49,7 +49,7 @@ const restaurant = () => {
             React and functional components, along with my knowledge of
             fundamental CSS properties, has enabled me to create a modern,
             responsive, and engaging website that provides a great user
-            experience. The website's clean and organized file and folder
+            experience. The website&apos;s clean and organized file and folder
             structure, along with its use of animations and gradients, make it a
             great example of modern UI/UX design.
           </p>

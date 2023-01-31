@@ -128,7 +128,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-primary-color">
               <p className="w-[85%] md:w-[90%] py-4 font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-[#07F2C5] to-[#AA02F0]">
-                Let's build something bullish together
+                Let&apos;s build something bullish together
               </p>
             </div>
           </div>
@@ -160,7 +160,7 @@ const Navbar = () => {
             </ul>
             <div>
               <p className="uppercase tracking-widest text-[#FAD000]">
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a

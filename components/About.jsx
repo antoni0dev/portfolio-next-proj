@@ -12,7 +12,7 @@ const About = () => {
           About
         </p>
         <h2 className="py-4">Who I Am</h2>
-        <p className="py-2">// I am not your ordinary developer</p>
+        <p className="py-2">~ I am not your ordinary developer</p>
         <p>
           Antonio Simeonov <span className="text-[#07F2C5]">(antoni0dev)</span>{" "}
           is a front end web developer with expertise in Next.js, React.js, and

@@ -12,11 +12,11 @@ const Main = () => {
       <div>
         <p className="uppercase tracking-widest">
           <span className="p-1 rounded">
-            LET'S BUILD SOMETHING BULLISH TOGETHER
+            LET&apos;S BUILD SOMETHING BULLISH TOGETHER
           </span>
         </p>
         <h1 className="py-4">
-          Hey, I'm <span className="text-[#FFEE80]">Antonio</span>
+          Hey, I&apos;m <span className="text-[#FFEE80]">Antonio</span>
         </h1>
         <h1 className="py-2">
           A <span className="text-[#AA02F0]">Front End</span> Web Developer
