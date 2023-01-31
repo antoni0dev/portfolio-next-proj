@@ -56,7 +56,7 @@ const restaurant = () => {
           <div>
             <button className="px-8 py-2 mt-4 mr-4">
               <a
-                href="https://antoni0dev.github.io/rick-and-morty-wiki-react-proj/"
+                href="https://antoni0dev.github.io/modern-ui-ux-restaurant-react-proj/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -65,7 +65,7 @@ const restaurant = () => {
             </button>
             <button className="px-8 py-2 mt-4">
               <a
-                href="https://github.com/antoni0dev/rick-and-morty-wiki-react-proj"
+                href="https://github.com/antoni0dev/modern-ui-ux-restaurant-react-proj"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -12,7 +12,7 @@ const crypto = () => {
         <Image
           className="absolute"
           src={cryptoImg}
-          alt="netflix img"
+          alt="crypto img"
           fill
           objectFit="cover"
         />
@@ -51,7 +51,7 @@ const crypto = () => {
           <div>
             <button className="px-8 py-2 mt-4 mr-4">
               <a
-                href="https://netflix2-0-next-proj.vercel.app/"
+                href="https://cryptoapi-clone.web.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -60,7 +60,7 @@ const crypto = () => {
             </button>
             <button className="px-8 py-2 mt-4">
               <a
-                href="https://github.com/antoni0dev/netflix2.0-next-proj"
+                href="https://github.com/antoni0dev/livecrypto-react-proj"
                 target="_blank"
                 rel="noreferrer"
               >
