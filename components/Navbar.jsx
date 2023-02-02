@@ -115,7 +115,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
               <Image
                 className="rounded-lg"
-                src="/../public/assets/logo.png"
+                src={logoImg}
                 width={80}
                 height={50}
                 alt="logo"
