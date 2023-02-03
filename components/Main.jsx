@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="p-5 w-full h-screen md:text-xs lg:text-sm flex justify-center items-center text-center"
+      className="p-5 max-w-1240 h-screen md:text-xs lg:text-sm flex justify-center items-center text-center"
     >
       <div>
         <p className="uppercase tracking-widest">

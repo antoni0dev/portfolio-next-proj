@@ -53,7 +53,7 @@ const Navbar = () => {
           : "fixed w-full z-[100]"
       }
     >
-      <div className="flex justify-between items-center px-4 py-2">
+      <div className="max-w-[1240px] mx-auto flex justify-between items-center px-4 py-2">
         <div>
           <Link href="/">
             <Image
