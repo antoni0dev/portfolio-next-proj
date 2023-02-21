@@ -17,7 +17,7 @@ const Projects = () => {
         Projects
       </p>
       <h2 className="py-4">What Ive Built</h2>
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 grid-rows-1 md:grid-rows-2 md:grid-cols-2 gap-8">
         <Project
           projectSrc={netflixImg}
           projectName="Netflix 2.0"
