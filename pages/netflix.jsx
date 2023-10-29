@@ -29,19 +29,20 @@ const netflix = () => {
             to browse through a curated selection of the latest releases,
             classic films, and more. The slider is backed by a sophisticated API
             that fetches data from The Movie Database (TMDb) API, ensuring that
-            all information is up-to-date and accurate. The platform's stylish
-            design is powered by Tailwind CSS, a utility-first CSS framework
-            that provides a sleek, modern look and feel. Whether you're watching
-            on your desktop, tablet, or smartphone, the platform is optimized
-            for all devices and provides a responsive, adaptive experience
-            that's perfect for movie-watching on the go. And with Firebase
-            hosting, the platform is fast, reliable, and always available. This
-            means that you can enjoy your favorite movies without any buffering
-            or interruptions, no matter where you are or what you're doing. In
-            addition, the Firebase Authentication allows you to sign up or sign
-            in on the website and save your favorite movies in your Account
-            page. So why not dive into the world of film with this Next.js,
-            Tailwind CSS, and Firebase-powered Netflix clone today?
+            all information is up-to-date and accurate. The platform&apos;s
+            stylish design is powered by Tailwind CSS, a utility-first CSS
+            framework that provides a sleek, modern look and feel. Whether
+            you&apos;re watching on your desktop, tablet, or smartphone, the
+            platform is optimized for all devices and provides a responsive,
+            adaptive experience that&apos;s perfect for movie-watching on the
+            go. And with Firebase hosting, the platform is fast, reliable, and
+            always available. This means that you can enjoy your favorite movies
+            without any buffering or interruptions, no matter where you are or
+            what you&apos;re doing. In addition, the Firebase Authentication
+            allows you to sign up or sign in on the website and save your
+            favorite movies in your Account page. So why not dive into the world
+            of film with this Next.js, Tailwind CSS, and Firebase-powered
+            Netflix clone today?
           </ProjectOverview>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-[#07F2C5] rounded-xl p-4 overflow-auto'>

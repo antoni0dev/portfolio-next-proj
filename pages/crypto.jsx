@@ -26,21 +26,22 @@ const crypto = () => {
             API. The frontend of the app is built using React.js, which provides
             a seamless user experience. It is designed to be fast and
             responsive, so the user can get the information they need quickly.
-            The app's UI is built using Tailwind CSS, which gives the app a
+            The app&apos;s UI is built using Tailwind CSS, which gives the app a
             modern and clean look. The app utilizes the CoinGecko Cryptocurrency
             API to fetch real-time cryptocurrency data, including the latest
             prices, market capitalization, and 24-hour volume. The API is easy
             to integrate and provides reliable and accurate data. The app uses
-            Firebase to store user data, such as the user's preferred currency
-            and the cryptocurrencies they are interested in. This ensures that
-            the user's preferences are remembered, even if they close the app or
-            switch devices. Some of the features of the app include: Real-time
-            cryptocurrency data User-friendly interface Option to select
-            preferred currency Option to add and remove cryptocurrencies from
-            the watchlist Mobile responsive design The app has been thoroughly
-            tested and optimized for performance. I am confident that it will
-            provide users with an excellent experience and help them stay up to
-            date with the latest cryptocurrency information.
+            Firebase to store user data, such as the user&apos;s preferred
+            currency and the cryptocurrencies they are interested in. This
+            ensures that the user&apos;s preferences are remembered, even if
+            they close the app or switch devices. Some of the features of the
+            app include: Real-time cryptocurrency data User-friendly interface
+            Option to select preferred currency Option to add and remove
+            cryptocurrencies from the watchlist Mobile responsive design The app
+            has been thoroughly tested and optimized for performance. I am
+            confident that it will provide users with an excellent experience
+            and help them stay up to date with the latest cryptocurrency
+            information.
           </ProjectOverview>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-[#07F2C5 rounded-xl p-4'>
