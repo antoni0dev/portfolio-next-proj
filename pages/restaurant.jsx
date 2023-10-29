@@ -1,31 +1,24 @@
 import React from 'react';
-import Image from 'next/image';
 import restaurantImg from '../public/assets/projects/restaurant.png';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
+import ProjectHero from '@/components/ProjectHero';
+import ProjectOverview from '@/components/ProjectOverview';
+import TechnologiesAside from '@/components/TechnologiesAside';
+import BackButton from '@/components/BackButton';
 
 const restaurant = () => {
   return (
     <div className='w-full h-full overflow-x-hidden'>
-      <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] z-10 bg-black/70' />
-        <Image
-          className='absolute'
-          src={restaurantImg}
-          alt='netflix img'
-          fill
-          objectFit='cover'
-        />
-        <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-[11] p-2'>
-          <h2>Modern UI/UX Restaurant</h2>
-          <h3>React.js & Figma Design & Firebase</h3>
-        </div>
-      </div>
+      <ProjectHero
+        title='Modern UI/UX Restaurant Website'
+        subtitle='React.js & Figma Design & Firebase'
+        imgSrc={restaurantImg}
+      />
       <div className='max-w-[1240px] mx-auto p-10 m-5 grid md:grid-cols-5 gap-8 shadow-[#07F2C5] shadow-md'>
         <div className='col-span-4 flex flex-col justify-center items-start gap-4'>
-          <p className='text-[#FFEE80]'>Project</p>
-          <h2>Overview</h2>
-          <p className='text-xl tracking-wider'>
+          <ProjectOverview
+            demoLink='https://antoni0dev.github.io/modern-ui-ux-restaurant-react-proj/'
+            repoLink='https://github.com/antoni0dev/modern-ui-ux-restaurant-react-proj'
+          >
             The Modern UI/UX Restaurant Project is a cutting-edge platform for
             showcasing the offerings of a restaurant. It was built using React
             and leverages the power of functional components and their
@@ -49,53 +42,22 @@ const restaurant = () => {
             React and functional components, along with my knowledge of
             fundamental CSS properties, has enabled me to create a modern,
             responsive, and engaging website that provides a great user
-            experience. The website&apos;s clean and organized file and folder
+            experience. The website's clean and organized file and folder
             structure, along with its use of animations and gradients, make it a
             great example of modern UI/UX design.
-          </p>
-          <div>
-            <button className='px-8 py-2 mt-4 mr-4'>
-              <a
-                href='https://antoni0dev.github.io/modern-ui-ux-restaurant-react-proj/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Demo
-              </a>
-            </button>
-            <button className='px-8 py-2 mt-4'>
-              <a
-                href='https://github.com/antoni0dev/modern-ui-ux-restaurant-react-proj'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Code
-              </a>
-            </button>
-          </div>
+          </ProjectOverview>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-[#07F2C5 rounded-xl p-4'>
-          <div className='p-2'>
-            <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-1 text-center sm:text-left justify-items-center sm:justify-items-start items-center'>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 ' /> React.js
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 ' /> Figma Design
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 ' /> JavaScript
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 ' /> Firebase
-              </p>
-            </div>
-          </div>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-[#07F2C5] rounded-xl p-4 overflow-auto'>
+          <TechnologiesAside
+            technologies={[
+              'React.js',
+              'Figma Design',
+              'JavaScript',
+              'Firebase',
+            ]}
+          />
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer text-[#FFEE80]'>Back</p>
-        </Link>
+        <BackButton href='/#projects' />
       </div>
     </div>
   );

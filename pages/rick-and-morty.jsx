@@ -1,31 +1,26 @@
-import React from "react";
-import Image from "next/image";
-import rickmortyImg from "../public/assets/projects/rick-and-morty.png";
-import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import rickmortyImg from '../public/assets/projects/rick-and-morty.png';
+import { RiRadioButtonFill } from 'react-icons/ri';
+import Link from 'next/link';
+import ProjectHero from '@/components/ProjectHero';
+import ProjectOverview from '@/components/ProjectOverview';
+import TechnologiesAside from '@/components/TechnologiesAside';
 
 const rickAndMorty = () => {
   return (
-    <div className="w-full h-full overflow-x-hidden">
-      <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] z-10 bg-black/70" />
-        <Image
-          className="absolute"
-          src={rickmortyImg}
-          alt="netflix img"
-          fill
-          objectFit="cover"
-        />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-[11] p-2">
-          <h2>Rick and Morty Wiki</h2>
-          <h3>React.js & Bootstrap CSS & Firebase</h3>
-        </div>
-      </div>
-      <div className="max-w-[1240px] mx-auto p-10 m-5 grid md:grid-cols-5 gap-8 shadow-[#07F2C5] shadow-md">
-        <div className="col-span-4 flex flex-col justify-center items-start gap-4">
-          <p className="text-[#FFEE80]">Project</p>
-          <h2>Overview</h2>
-          <p className="text-xl tracking-wider">
+    <div className='w-full h-full overflow-x-hidden'>
+      <ProjectHero
+        title='Rick and Morty Wiki'
+        subtitle='React.js & Bootstrap & Firebase'
+        imgSrc={rickmortyImg}
+      />
+      <div className='max-w-[1240px] mx-auto p-10 m-5 grid md:grid-cols-5 gap-8 shadow-[#07F2C5] shadow-md'>
+        <div className='col-span-4 flex flex-col justify-center items-start gap-4'>
+          <ProjectOverview
+            demoLink='https://antoni0dev.github.io/rick-and-morty-wiki-react-proj/'
+            repoLink='https://github.com/antoni0dev/rick-and-morty-wiki-react-proj'
+          >
             A Modern, Responsive Rick & Morty Wiki React.js project is a
             comprehensive and interactive platform that provides information
             about the popular animated TV show. The project was built using the
@@ -58,49 +53,15 @@ const rickAndMorty = () => {
             Filters, Search Bar, React Router, and Dynamic Routing, has made the
             website fast, responsive, and user-friendly, providing a great
             experience for users.
-          </p>
-          <div>
-            <button className="px-8 py-2 mt-4 mr-4">
-              <a
-                href="https://antoni0dev.github.io/rick-and-morty-wiki-react-proj/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Demo
-              </a>
-            </button>
-            <button className="px-8 py-2 mt-4">
-              <a
-                href="https://github.com/antoni0dev/rick-and-morty-wiki-react-proj"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Code
-              </a>
-            </button>
-          </div>
+          </ProjectOverview>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-[#07F2C5 rounded-xl p-4">
-          <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-1 text-center sm:text-left justify-items-center sm:justify-items-start items-center">
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1 " /> React.js
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1 " /> Bootstrap CSS
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1 " /> JavaScript
-              </p>
-              <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1 " /> Firebase
-              </p>
-            </div>
-          </div>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-[#07F2C5 rounded-xl p-4'>
+          <TechnologiesAside
+            technologies={['React.js', 'Bootstrap', 'JavaScript', 'Firebase']}
+          />
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer text-[#FFEE80]">Back</p>
+        <Link href='/#projects'>
+          <p className='underline cursor-pointer text-[#FFEE80]'>Back</p>
         </Link>
       </div>
     </div>
