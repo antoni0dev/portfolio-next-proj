@@ -57,12 +57,20 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-                  <a href='mailto:antoniosimeonov7@gmail.com'>
+                  <a
+                    href='mailto:antoniosimeonov7@gmail.com'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <Link href='https://resume.io/r/d0iJkiroN'>
+                  <Link
+                    href='https://drive.google.com/file/d/19m4CSIraDhbEWdf7fkenEJ-fp1M6VOh0/view?usp=sharing'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <BsFillPersonLinesFill />
                     </div>

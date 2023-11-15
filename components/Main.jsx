@@ -55,7 +55,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://resume.io/r/d0iJkiroN'
+              href='https://drive.google.com/file/d/19m4CSIraDhbEWdf7fkenEJ-fp1M6VOh0/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
